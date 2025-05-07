@@ -54,7 +54,7 @@ fun DiceWithButton(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center
     ) {
         Text("Dice Rolled: $result", style = MaterialTheme.typography.headlineMedium)
-        Spacer(modifier = Modifier.height(20.dp))
+        Spacer(modifier = Modifier.height(40.dp))
         Button(onClick = {
             result = Random.nextInt(1, 7)
         }) {
